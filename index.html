@@ -3,17 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Love Website</title>
+  <title>I Love You</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <div class="container">
-    <h1>Welcome to My Love Website</h1>
-    <p class="subtitle">A place where love shines ✨</p>
-    <div class="buttons">
-      <a href="love.html" class="btn">I Love You Page</a>
-      <a href="about.html" class="btn secondary">About</a>
-    </div>
-  </div>
+<body class="love-bg">
+  <h1 class="love-text">I love you ❤️</h1>
+  <audio autoplay loop>
+    <source src="https://cdn.pixabay.com/download/audio/2022/10/20/audio_0eabacb80f.mp3?filename=romantic-piano-116199.mp3" type="audio/mpeg">
+  </audio>
+  <script>
+    function createHeart() {
+      const heart = document.createElement('div');
+      heart.className = 'heart';
+      heart.style.left = Math.random() * 100 + 'vw';
+      heart.style.animationDuration = (3 + Math.random() * 3) + 's';
+      document.body.appendChild(heart);
+      setTimeout(() => heart.remove(), 6000);
+    }
+    setInterval(createHeart, 500);
+  </script>
 </body>
 </html>

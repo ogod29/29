@@ -17,46 +17,6 @@ body {
   100% { background-position: 0% 50%; }
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  padding: 20px;
-}
-
-h1 {
-  font-size: 3rem;
-  margin-bottom: 10px;
-}
-
-.subtitle {
-  font-size: 1.2rem;
-  margin-bottom: 20px;
-  opacity: 0.9;
-}
-
-.buttons .btn {
-  display: inline-block;
-  padding: 10px 20px;
-  margin: 5px;
-  text-decoration: none;
-  color: white;
-  background: #ff5e78;
-  border-radius: 30px;
-  transition: 0.3s;
-}
-
-.buttons .btn:hover {
-  background: #ff2e4d;
-  transform: scale(1.05);
-}
-
-.buttons .secondary {
-  background: rgba(255, 255, 255, 0.2);
-}
-
 .love-bg {
   background: linear-gradient(135deg, #ff5e78, #ff9a9e);
   overflow: hidden;
