@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>About This Website</h1>
+    <p class="subtitle">This website is a simple expression of love, beauty, and creativity.</p>
+    <p>Built with pure HTML, CSS, and a little magic ✨.</p>
+    <div class="buttons">
+      <a href="index.html" class="btn secondary">Back to Home</a>
+    </div>
+  </div>
+</body>
+</html>
